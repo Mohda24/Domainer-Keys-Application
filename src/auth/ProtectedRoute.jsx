@@ -6,7 +6,7 @@ import { auth } from '../firebase';
 const ProtectedRoute = () => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
-    const ADMIN_UID = "GTpoJcPMMVaCilFxSOnw0E0TtNG3";
+    const ADMIN_UID = "8agnkDpswJZzx5rlkV193nSflot1";
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
